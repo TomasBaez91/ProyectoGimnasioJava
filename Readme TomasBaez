@@ -4,9 +4,12 @@ Se añade la variable contadorIde en la clase gimnasio. (Linea 5)
 Se crea el constructor de la clase Usuario para asignarle los valores de nombre y iD con sus get y set para que nos devuelva los atributos  y poder crear nuevos usuarios o modificarlos en caso de que usuarios se den de baja no tener un montón de id sin contenido. (Linea 27 a 46)
 El constructor Gimnasio  y el método mostrarActividades se mantienen igual.
 Se modifica el método registrarUsuario para lo siguiente:
-En primer lugar modificamos el String Usuario por nombreUsuario para que estén mejor definidos y no haya conjunción.(linea 16)
-Se utiliza la variable contadorId para que aumente uno en cada registro para que  la variable de la clase usuario iD se modifique cada vez que se crea un usuario y así tenga un numero único.(Linea 17)
-Se modifica el print para que ahora aparezca el usuario  con su nombre y con su id correspondiente (Linea 18)
+En primer lugar modificamos el String Usuario por nombreUsuario para que estén mejor definidos y no haya confusión y se añade el string actividad.
+se crea el constructor y la clase usuario con nombre, id y actividad.
+Se utiliza la variable contadorId para que aumente uno en cada registro para que  la variable de la clase usuario iD se modifique cada vez que se crea un usuario y así tenga un numero único.
+Se modifica el print para que ahora aparezca el usuario  con su nombre y con su id correspondiente  y la actividad a realizar. (Linea 18)
 
 
 Con esto se consigue que en caso de haber nombres iguales no haya conflicto en los datos y este todo mas organizado.
+
+
