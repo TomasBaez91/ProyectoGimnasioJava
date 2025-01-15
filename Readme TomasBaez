@@ -7,9 +7,10 @@ Se modifica el método registrarUsuario para lo siguiente:
 En primer lugar modificamos el String Usuario por nombreUsuario para que estén mejor definidos y no haya confusión y se añade el string actividad.
 se crea el constructor y la clase usuario con nombre, id y actividad.
 Se utiliza la variable contadorId para que aumente uno en cada registro para que  la variable de la clase usuario iD se modifique cada vez que se crea un usuario y así tenga un numero único.
-Se modifica el print para que ahora aparezca el usuario  con su nombre y con su id correspondiente  y la actividad a realizar. (Linea 18)
+Se modifica el print para que ahora aparezca el usuario  con su nombre y con su id correspondiente  y la actividad a realizar. 
 
+Con esto se consigue que en caso de haber nombres iguales no haya conflicto en los datos y este todo mas organizado y ademas que aparezca la actividad que el usuario va realizar.
 
-Con esto se consigue que en caso de haber nombres iguales no haya conflicto en los datos y este todo mas organizado.
+No obstante esto quedaria mas intuitivo si los datos de del usuario y  la actividad a  realizar las pidiera el programa para que el usuario las introdujera y el programa las guardara.
 
 
