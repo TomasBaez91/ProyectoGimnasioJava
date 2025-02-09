@@ -13,7 +13,7 @@ Ahora, al registrar a un usuario, se le asigna una actividad específica (como Y
 Instalación del proyecto.
 
 Requisitos previos:
-Asegúrarse de tener instalado Java en tu ordenador. Si no se tiene instalado, se puede descargarlo desde la página oficial de Oracle. Ademas se debe tener un IDE con el que trabajar con el codigo. Por ejemplo ECLIPSE o INTELLI J.
+Asegúrarse de tener instalado Java en el ordenador. Si no se tiene instalado, se puede descargar desde la página oficial de Oracle. Ademas se debe tener un IDE con el que trabajar con el codigo. Por ejemplo ECLIPSE o INTELLI J.
 
 Explicación del codigo implementado:
 
