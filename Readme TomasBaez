@@ -27,3 +27,5 @@ El método registrarUsuario toma el nombre del usuario y la actividad que desea 
 
 Clase Usuario
 La clase Usuario contiene los atributos: nombre, id y actividad. Los valores de estos atributos se asignan a través del constructor y pueden ser modificados o consultados usando los métodos get y set.
+
+En definita, esto mejora bastante  la gestión del gimansio, haciendo que sea mas practica, mas eficiente y tener un mayor control de los usuarios que se registren  y empiecen nuevas actividades
