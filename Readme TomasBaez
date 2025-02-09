@@ -1,16 +1,29 @@
 Readme
-Cambios en el programa gimnasio.
-Se añade la variable contadorIde en la clase gimnasio. (Linea 5)
-Se crea el constructor de la clase Usuario para asignarle los valores de nombre y iD con sus get y set para que nos devuelva los atributos  y poder crear nuevos usuarios o modificarlos en caso de que usuarios se den de baja no tener un montón de id sin contenido. (Linea 27 a 46)
-El constructor Gimnasio  y el método mostrarActividades se mantienen igual.
-Se modifica el método registrarUsuario para lo siguiente:
-En primer lugar modificamos el String Usuario por nombreUsuario para que estén mejor definidos y no haya confusión y se añade el string actividad.
-se crea el constructor y la clase usuario con nombre, id y actividad.
-Se utiliza la variable contadorId para que aumente uno en cada registro para que  la variable de la clase usuario iD se modifique cada vez que se crea un usuario y así tenga un numero único.
-Se modifica el print para que ahora aparezca el usuario  con su nombre y con su id correspondiente  y la actividad a realizar. 
+Proyecto Gimnasio Java
+Este proyecto es una mejora del sistema de gestión de un gimnasio, donde se han agregado nuevas funcionalidades como el manejo de usuarios con IDs únicos y la asignación de actividades para cada usuario. El sistema permite registrar usuarios, asignarles una actividad y gestionar su información de manera más eficiente.
 
-Con esto se consigue que en caso de haber nombres iguales no haya conflicto en los datos y este todo mas organizado y ademas que aparezca la actividad que el usuario va realizar.
+Mejoras Implementadas
+- Clase Usuario:
+Se ha creado una nueva clase Usuario para gestionar los datos de los usuarios, como su nombre, ID único y la actividad que realizan en el gimnasio.
+Los métodos get y set permiten acceder y modificar los atributos de los usuarios.
+- ID único para usuarios:
+Se ha implementado un sistema de IDs únicos mediante un contador (contadorId) que incrementa cada vez que se registra un nuevo usuario. Esto nos asegura  que no haya conflictos de ID ni usuarios repetidos.
+- Registro de actividad:
+Ahora, al registrar a un usuario, se le asigna una actividad específica (como Yoga, Boxeo o Funcional), y esta información se muestra junto al nombre y el ID del usuario.
+Instalación del proyecto.
 
-No obstante esto quedaria mas intuitivo si los datos de del usuario y  la actividad a  realizar las pidiera el programa para que el usuario las introdujera y el programa las guardara.
+Requisitos previos:
+Asegúrarse de tener instalado Java en tu ordenador. Si no se tiene instalado, se puede descargarlo desde la página oficial de Oracle. Ademas se debe tener un IDE con el que trabajar con el codigo. Por ejemplo ECLIPSE o INTELLI J.
 
+Explicación del codigo implementado:
 
+Registrar Usuarios
+Se pueden registrar nuevos usuarios con su nombre y la actividad que quieran  hacer. Cada vez que se registra un usuario, se le asigna un ID único y la actividad es mostrada junto con la información del usuario, por ejemplo:
+miGimnasio.registrarUsuario("Juan Perez", “Boxeo");
+
+Clase Gimnasio
+La clase Gimnasio tiene un contador (contadorId) que se incrementa cada vez que se registra un nuevo usuario.
+El método registrarUsuario toma el nombre del usuario y la actividad que desea realizar. Luego crea una nueva instancia de la clase Usuario con un ID único y muestra un mensaje confirmando el registro.
+
+Clase Usuario
+La clase Usuario contiene los atributos: nombre, id y actividad. Los valores de estos atributos se asignan a través del constructor y pueden ser modificados o consultados usando los métodos get y set.
